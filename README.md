@@ -27,7 +27,11 @@ Use requirements.txt file to install required packages, or install packages and 
 * numpy==1.18.5
 
 ## Results
-Overall ad sets 6 and 13 were most successful across most age and gender customer segments.  
+Overall ad sets 6 and 13 were most successful at achieving website registrations and website leads while maintaining a customer acquisition cost of $50 or less. 
+
+![Customer_Acquisition_Cost](Goal and Acquisition Cost Tab.png)
+
+![Conversion_Cycle](Coversion Cycle Tab.png)
 
 ### Ad Set Analysis Insights and Recommendation:
 | Key Insight | Recommendation |
@@ -36,6 +40,7 @@ Overall ad sets 6 and 13 were most successful across most age and gender custome
 | Money was spent on campaigns that received little or no website registrations | Re-invest this money to fund campaigns 6 and 13 since they were the most successful |
 | The conversion factor from impression to website registrations is on average 0.03% for all campaigns and around 0.05% for ad sets 6 and 13 | Analyze pain points within conversion cycle to improve inefficiencies and decrease attrition | 
 | The acquisition cost for ad set 6 is under $50 for all demographics. The acquisition cost for ad set 13 is under $50 for most demographics | Use ad set 6 to target all demographics including males, females, unknown, and ages 25-44 and use ad set 13 to target males who are 25-34 | 
+
 
 
 ## Status
