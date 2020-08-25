@@ -4,16 +4,14 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
 * [Results](#results)
 * [Status](#status)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 ## General info
-This data is from a Facebook ad campaign. The campaign is focused on customer acquisition versus brand awareness. The primary goal is “Website Registrations Completed” and the secondary goal is “Website Leads.” The target acquisition cost for the primary goal was $50 or less. 
+This data is from a Facebook ad campaign. The campaign is focused on customer acquisition versus brand awareness. The primary goal is “Website Registrations Completed” and the secondary goal is “Website Leads.” The target acquisition cost was $50 or less. 
 
-In this project, I will create a tool in plotly's dash to explore the data set and different visualizations.
+In this project, I created a tool in Plotly's dash to explore the data set and assess each ad set's performance against the primary and secondary goals.
 
 ## Technologies
 * Python 3.7
@@ -21,55 +19,27 @@ In this project, I will create a tool in plotly's dash to explore the data set a
 ## Setup
 Use requirements.txt file to install required packages, or install packages and versions listed below:
 
-* pandas==1.0.1
-* numpy==1.18.1
-* catboost==0.23
-* matplotlib==3.1.3
-* scikit_learn==0.23.1
-* xgboost==1.1.1
-
-Data can be found on [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
-
-## Features
-The following three Machine Learning models are included:
-
-* CatBoost
-* XGBoost
-* Random Forest
+* dash_ core_components==1.3.1
+* dash==1.4.1
+* pandas==1.0.5
+* dash_ html_components==1.0.1
+* plotly==4.8.2
+* numpy==1.18.5
 
 ## Results
-Overall the CatBoost model outperformed the Random Forest and XGBoost models in recall. Recall is the chosen metric because the cost of false positives is low in this case and we want to capture all positives. The full metrics for each model is included below: 
-### Random Forest Results:
-| Metric | Train | Test |
-| ------ | ----- | ----- |
-| AUC | 0.746 | 0.896 |
-| Accuracy | 0.766 | 0.873 |
-| F1 | 0.614 | 0.797 |
-| Recall | 0.703 | 0.945 |
-| Precision | 0.546 | 0.690 |
-### XGBoost Results:
-| Metric | Train | Test |
-| ------ | ----- | ----- |
-| AUC | 0.759 |  0.789 |
-| Accuracy | 0.746 | 0.769 |
-| F1 | .622 | 0.656 |
-| Recall | 0.786 |  0.831 |
-| Precision | 0.514 | 0.542 |
+Overall ad sets 6 and 13 were most successful across most age and gender customer segments.  
 
-### CatBoost Results:
-| Metric | Train | Test |
-| ------ | ----- | ----- |
-| AUC | 0.753 |  0.753 |
-| Accuracy | 0.714 | 0.712 |
-| F1 | 0.608 |  0.608 |
-| Recall | 0.836 | 0.840 |
-| Precision | 0.478 |  0.476 |
+### Ad Set Analysis Insights and Recommendation:
+| Key Insight | Recommendation |
+| ------ | ----- |
+| There were 0 impressions/reach/registrations for customers within age groups of 18-24 and 45+ | Re-asses the content contained in the ads and explore other modes of advertising for these groups such as pay-per-click | 
+| Money was spent on campaigns that received little or no website registrations | Re-invest this money to fund campaigns 6 and 13 since they were the most successful |
+| The conversion factor from impression to website registrations is on average 0.03% for all campaigns and around 0.05% for ad sets 6 and 13 | Analyze pain points within conversion cycle to improve inefficiencies and decrease attrition | 
+| The acquisition cost for ad set 6 is under $50 for all demographics. The acquisition cost for ad set 13 is under $50 for most demographics | Use ad set 6 to target all demographics including males, females, unknown, and ages 25-44 and use ad set 13 to target males who are 25-34 | 
+
 
 ## Status
 Project is: _In Progress_
 
 ## Contact
 Created by [Gabrielle Nyirjesy](https://www.linkedin.com/in/gabrielle-nyirjesy) - feel free to contact me!
-
-## Acknowledgements
-* Data pulled from [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
