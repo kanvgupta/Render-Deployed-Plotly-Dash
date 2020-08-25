@@ -65,9 +65,8 @@ app = dash.Dash(__name__)
 app.title = 'Facebook Ad Campaign Analysis'
 
 #Define location of file and read in data
-filepath = "/Users/gabbynyirjesy/Desktop/GitHub/Facebook_Ad_Campaign_Dashboard/Data/"
-filename = "ads_clean.csv"
-ads = pd.read_csv(filepath+filename, index_col=0)
+url = 'https://raw.githubusercontent.com/gnyirjesy/Ad-Campaign-Dashboard/master/Data/ads_clean.csv?token=ANT6WFW5AHER2YXY6LYUTUC7IRYLE'
+ads = pd.read_csv(url, index_col=0)
 
 #Create the app layout
 app.layout = html.Div([
