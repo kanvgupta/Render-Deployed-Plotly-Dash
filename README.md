@@ -29,9 +29,9 @@ Use requirements.txt file to install required packages, or install packages and 
 ## Results
 Overall ad sets 6 and 13 were most successful at achieving website registrations and website leads while maintaining a customer acquisition cost of $50 or less. 
 
-![Customer_Acquisition_Cost](Goal and Acquisition Cost Tab.png)
+![Customer_Acquisition_Cost](Goal_Acquisition_Cost_Tab.png)
 
-![Conversion_Cycle](Coversion Cycle Tab.png)
+![Conversion_Cycle](Coversion_Cycle_Tab.png)
 
 ### Ad Set Analysis Insights and Recommendation:
 | Key Insight | Recommendation |
