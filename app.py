@@ -18,6 +18,8 @@ import plotly.graph_objs as go
 import plotly.express as px
 import plotly.io as pio
 
+# import requests
+# import io
 #----------------------#
 #Define style elements #
 #----------------------#
@@ -65,8 +67,10 @@ app = dash.Dash(__name__)
 app.title = 'Facebook Ad Campaign Analysis'
 
 #Define location of file and read in data
-url = 'https://raw.githubusercontent.com/gnyirjesy/Ad-Campaign-Dashboard/master/Data/ads_clean.csv?token=ANT6WFW5AHER2YXY6LYUTUC7IRYLE'
-ads = pd.read_csv(url, index_col=0)
+#url = 'https://raw.githubusercontent.com/gnyirjesy/Ad-Campaign-Dashboard/master/Data/ads_clean.csv'
+#ads = pd.read_csv(url, index_col=0)
+ads = pd.read_csv('/Users/gabbynyirjesy/Desktop/GitHub/Facebook_Ad_Campaign_Dashboard/Ad-Campaign-Dashboard/Data/ads_clean.csv')
+
 
 #Create the app layout
 app.layout = html.Div([
@@ -451,4 +455,4 @@ def update_funnel(ad_set1, ad_set2):
 
 #Add server clause
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
