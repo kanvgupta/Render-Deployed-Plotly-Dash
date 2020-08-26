@@ -71,7 +71,6 @@ server = app.server
 #Define location of file and read in data
 url = 'https://raw.githubusercontent.com/gnyirjesy/Ad-Campaign-Dashboard/master/Data/ads_clean.csv'
 ads = pd.read_csv(url, index_col=0)
-#ads = pd.read_csv('/Users/gabbynyirjesy/Desktop/GitHub/Facebook_Ad_Campaign_Dashboard/Ad-Campaign-Dashboard/Data/ads_clean.csv')
 
 
 #Create the app layout
