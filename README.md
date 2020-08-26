@@ -10,9 +10,9 @@
 * [Acknowledgements](#acknowledgements)
 
 ## General info
-This data is from a Facebook ad campaign. The campaign is focused on customer acquisition versus brand awareness. The primary goal is “Website Registrations Completed” and the secondary goal is “Website Leads.” The target acquisition cost was $50 or less. 
+This data is from a Facebook ad campaign. The campaign is focused on customer acquisition versus brand awareness. The primary goal is “Website Registrations Completed” and the secondary goal is “Website Leads.” The target acquisition cost was $50 or less.
 
-In this project, I created a tool in Plotly's dash to explore the data set and assess each ad set's performance against the primary and secondary goals.
+In this project, I created a tool in Plotly's dash to explore the data set and assess each ad set's performance against the primary and secondary goals. Additionally, the tool examines the conversion cycle of impressions -> link clicks -> website leads -> website registrations to identify steps with higher abandoment rates.
 
 The application is deployed on Heroku at this [link.](https://ad-campaign-analysis.herokuapp.com/)
 
