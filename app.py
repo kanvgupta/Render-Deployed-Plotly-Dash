@@ -66,6 +66,8 @@ app = dash.Dash(__name__)
 #Title the webpage
 app.title = 'Facebook Ad Campaign Analysis'
 
+server = app.server
+
 #Define location of file and read in data
 url = 'https://raw.githubusercontent.com/gnyirjesy/Ad-Campaign-Dashboard/master/Data/ads_clean.csv'
 ads = pd.read_csv(url, index_col=0)
