@@ -14,7 +14,7 @@ This data is from a Facebook ad campaign. The campaign is focused on customer ac
 
 In this project, I created a tool in Plotly's dash to explore the data set and assess each ad set's performance against the primary and secondary goals.
 
-The application is deployed on Heroku at this [link.](#https://ad-campaign-analysis.herokuapp.com/)
+The application is deployed on Heroku at this [link.](https://ad-campaign-analysis.herokuapp.com/)
 
 ## Technologies
 * Python 3.7
@@ -56,4 +56,4 @@ Project is: _In Progress_
 Created by [Gabrielle Nyirjesy](https://www.linkedin.com/in/gabrielle-nyirjesy) - feel free to contact me!
 
 ## Acknowledgements
-Thank you to @amyoshino for the [css template.](#https://codepen.io/amyoshino/pen/jzXypZ.css)
+Thank you to @amyoshino for the [css template.](https://codepen.io/amyoshino/pen/jzXypZ.css)
