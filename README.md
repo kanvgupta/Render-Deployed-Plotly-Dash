@@ -14,11 +14,11 @@ This data is from a Facebook ad campaign. The campaign is focused on customer ac
 
 In this project, I created a tool in Plotly's dash to explore the data set and assess each ad set's performance against the primary and secondary goals. Additionally, the tool examines the conversion cycle of impressions -> link clicks -> website leads -> website registrations to identify steps with higher abandoment rates.
 
-The application is deployed on Heroku at this [link.](https://ad-campaign-analysis.herokuapp.com/)
+The application is deployed on Render at this [link.](https://ad-campaign-analysis.onrender.com/)
 
 ## Technologies
-* Python 3.7
-* Heroku
+* Python 3.8.5
+* Render
 
 ## Setup
 Use requirements.txt file to install required packages, or install packages and versions listed below:
@@ -30,6 +30,8 @@ Use requirements.txt file to install required packages, or install packages and 
 * plotly==4.8.2
 * numpy==1.18.5
 * gunicorn==20.0.4
+* flask==2.1.3
+* Werkzeug==2.0.0
 
 ## Results
 Overall ad sets 6 and 13 were most successful at achieving website registrations and website leads while maintaining a customer acquisition cost of $50 or less. 
@@ -50,7 +52,7 @@ A closer look at the conversion cycle for the ad sets shows that the largest aba
 
 
 ## Status
-Project is: _In Progress_
+Project is: _Complete_
 
 ## Contact
 Created by [Gabrielle Nyirjesy](https://www.linkedin.com/in/gabrielle-nyirjesy) - feel free to contact me!
